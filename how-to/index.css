@@ -1,0 +1,30 @@
+/* ANIMATED BUTTON */
+
+.animated-button-container {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.menu-icon {
+  width: 35px;
+  height: 5px;
+  margin: 6px 0;
+  background-color: rgb(82, 82, 82);
+  transition: all 0.4s;
+}
+
+.change .no-1 {
+  transform: rotate(-45deg) translate(-9px, 6px);
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .no-2 {
+  opacity: 0;
+}
+
+.change .no-3 {
+  transform: rotate(45deg) translate(-8px, -8px);
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+}
+
+/*  */
